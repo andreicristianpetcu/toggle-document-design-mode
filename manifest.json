@@ -1,0 +1,29 @@
+{
+    "name": "Toggle Document Design Mode",
+    "description": "Press Shift+Alt+D to toggle document.designMode = 'on'/'off'. The logo is CC0 from here https://pixabay.com/en/pencil-pen-orange-red-eraser-190586/",
+    "homepage_url": "https://github.com/andreicristianpetcu/toggle-document-design-mode",
+    "author": "Andrei Petcu",
+    "version": "1.0.0",
+    "background": {
+        "scripts": ["background.js"]
+    },
+    "icons": {
+        "32": "images/icon32x32.png",
+        "64": "images/icon64x64.png"
+    },
+    "permissions": ["activeTab"],
+    "commands": {
+        "toggle-document-design-mode": {
+            "suggested_key": {
+                "default": "Alt+Shift+D"
+            },
+            "description": "Toggles document.designMode = 'on'/'off'"
+        }
+    },
+    "applications": {
+        "gecko": {
+            "id": "{bb82f8a0-37a0-4609-b009-2cf4764e3ec5}"
+        }
+    },
+    "manifest_version": 2
+}
