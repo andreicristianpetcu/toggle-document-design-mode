@@ -20,6 +20,14 @@
             "description": "Toggles document.designMode = 'on'/'off'"
         }
     },
+    "browser_action": {
+      "browser_style": true,
+      "default_icon": {
+        "32": "images/icon32x32.png",
+        "64": "images/icon64x64.png"
+      },
+      "default_title": "Shift+Alt+D to toggle document.designMode"
+    },
     "applications": {
         "gecko": {
             "id": "{bb82f8a0-37a0-4609-b009-2cf4764e3ec5}"
